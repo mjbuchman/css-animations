@@ -103,7 +103,7 @@ Second set of icons - Blue Circle 3x3 Icons
     padding-right: 10px;
 }
 
-.fa{
+.icon2-container .fa{
     padding: 20px;
     font-size: 30px;
     width: 30px;
@@ -113,57 +113,173 @@ Second set of icons - Blue Circle 3x3 Icons
 	border-radius: 50%;
 }
 
-.fa:hover{
+.icon2-container .fa:hover{
     color: black;
     background-color: white;
+    transition: .8s;
     opacity: .8;
 }
 
-.fa-facebook{
+.icon2-container .fa-facebook{
     background: #3B5998;
     color: white;
 }
 
-.fa-twitter{
+.icon2-container .fa-twitter{
     background: #55ACEE;
     color: white;
 }
 
-.fa-google{
+.icon2-container .fa-google{
     background: #DD4B39;
     color: white;
 }
 
-.fa-youtube{
+.icon2-container .fa-youtube{
     background: #BB0000;
     color: white;
 }
 
-.fa-dribbble{
+.icon2-container .fa-dribbble{
 	background: #EA4C89;
 	color: white;
 }
 
-.fa-linkedin{
+.icon2-container .fa-linkedin{
 	background: #0077B5;
 	color: white;
 }
 
-.fa-tumblr{
+.icon2-container .fa-tumblr{
     background: #2C4762;
     color: white;
 }
 
-.fa-pinterest{
+.icon2-container .fa-pinterest{
 	background: #CB2027;
 	color: white;
 }
 
-.fa-rss{
+.icon2-container .fa-rss{
     background: #FF6000;
     color: white;
 }
 
 /*--------------------------------------------------------------
-Third set of icons -
+Third set of icons - Green Slide Down Icons
 --------------------------------------------------------------*/
+.icon3-container{
+    float: left;
+    background-color: #4FC775;
+    border: 2.5px solid #FFF;
+    border-top: none;
+    padding: 50px;
+}
+
+.icon3-container .fa{
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 20px;
+	border-radius: 35%;
+}
+
+.icon3-container .fa-facebook{
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, white 50%, #3B5998 50%);
+    -webkit-transition: background-position .5s;
+    -moz-transition: background-position .5s;
+    transition: background-position .5s;
+    color: #3B5998;
+}
+
+.icon3-container .fa-facebook:hover{
+    background-position: 0 -100%;
+    transition: .5s;
+    color: white;
+}
+
+.icon3-container .fa-twitter{
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, white 50%, #55ACEE 50%);
+    -webkit-transition: background-position .5s;
+    -moz-transition: background-position .5s;
+    transition: background-position .5s;
+    color:  #55ACEE;
+}
+
+.icon3-container .fa-twitter:hover{
+    background-position: 0 -100%;
+    transition: .5s;
+    color: white;
+}
+
+.icon3-container .fa-linkedin{
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, white 50%, #0077B5 50%);
+    -webkit-transition: background-position .5s;
+    -moz-transition: background-position .5s;
+    transition: background-position .5s;
+	color: #0077B5;
+}
+
+.icon3-container .fa-linkedin:hover{
+    background-position: 0 -100%;
+    transition: .5s;
+    color: white;
+}
+
+.icon3-container .fa-google{
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, white 50%, #DD4B39 50%);
+    -webkit-transition: background-position .5s;
+    -moz-transition: background-position .5s;
+    transition: background-position .5s;
+    color: #DD4B39;
+}
+
+.icon3-container .fa-google:hover{
+    background-position: 0 -100%;
+    transition: .5s;
+    color: white;
+}
+
+.icon3-container .fa-rss{
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, white 50%, #FF6000 50%);
+    -webkit-transition: background-position .5s;
+    -moz-transition: background-position .5s;
+    transition: background-position .5s;
+    color:#FF6000;
+}
+
+.icon3-container .fa-rss:hover{
+    background-position: 0 -100%;
+    transition: .5s;
+    color: white;
+}
+
+/*--------------------------------------------------------------
+Fourth set of icons - Yellow
+--------------------------------------------------------------*/
+.icon4-container{
+    background-color: #FFD656;
+    border: 2.5px solid #FFF;
+    padding: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+/*--------------------------------------------------------------
+Fifth set of icons - Purple
+--------------------------------------------------------------*/
+.icon5-container{
+    float: left;
+    background-color: #644CA2;
+    border: 2.5px solid #FFF;
+    border-top: none;
+    padding: 50px;
+}
