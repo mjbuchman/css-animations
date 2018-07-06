@@ -253,7 +253,7 @@ Third set of icons - Green Slide Down Icons
     -webkit-transition: background-position .5s;
     -moz-transition: background-position .5s;
     transition: background-position .5s;
-    color:#FF6000;
+    color: #FF6000;
 }
 
 .icon3-container .fa-rss:hover{
@@ -266,20 +266,39 @@ Third set of icons - Green Slide Down Icons
 Fourth set of icons - Yellow
 --------------------------------------------------------------*/
 .icon4-container{
+    float: left;
     background-color: #FFD656;
     border: 2.5px solid #FFF;
+    border-top: none;
+    border-right: none;
     padding: 50px;
     height: 300px;
-    width: 300px;
+    width: 267px;
 }
 
 /*--------------------------------------------------------------
-Fifth set of icons - Purple
+Fifth set of icons - Yellow
 --------------------------------------------------------------*/
 .icon5-container{
+    position: absolute;
+    top: 203px;
+    float: left;
+    background-color: #FFD656;
+    border: 2.5px solid #FFF;
+    border-left: none;
+    padding: 50px;
+    height: 200px;
+    width: 410px;
+}
+
+/*--------------------------------------------------------------
+Sixth set of icons - Purple
+--------------------------------------------------------------*/
+.icon6-container{
     float: left;
     background-color: #644CA2;
     border: 2.5px solid #FFF;
-    border-top: none;
     padding: 50px;
+    height: 150px;
+    width: 150px;
 }
