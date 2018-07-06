@@ -7,9 +7,10 @@ body{
 }
 
 /*--------------------------------------------------------------
-First set of icons
+First set of icons - Red Flip Card Icons
 --------------------------------------------------------------*/
 .icon1-container{
+    float: left;
 	display: inline-block;
     height: 170px;
     background-color: #FF5952;
@@ -91,5 +92,78 @@ First set of icons
 }
 
 /*--------------------------------------------------------------
-Second set of icons
+Second set of icons - Blue Circle 3x3 Icons
+--------------------------------------------------------------*/
+.icon2-container{
+    float: left;
+    background-color: #3E77E9;
+    border: 2.5px solid #FFF;
+    border-top: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 4px;
+	border-radius: 50%;
+}
+
+.fa:hover{
+    color: black;
+    background-color: white;
+    opacity: .8;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google{
+    background: #DD4B39;
+    color: white;
+}
+
+.fa-youtube{
+    background: #BB0000;
+    color: white;
+}
+
+.fa-dribbble{
+	background: #EA4C89;
+	color: white;
+}
+
+.fa-linkedin{
+	background: #0077B5;
+	color: white;
+}
+
+.fa-tumblr{
+    background: #2C4762;
+    color: white;
+}
+
+.fa-pinterest{
+	background: #CB2027;
+	color: white;
+}
+
+.fa-rss{
+    background: #FF6000;
+    color: white;
+}
+
+/*--------------------------------------------------------------
+Third set of icons -
 --------------------------------------------------------------*/
