@@ -272,7 +272,7 @@ Fourth set of icons - Yellow
     border-top: none;
     border-right: none;
     padding: 50px;
-    height: 300px;
+    height: 270px;
     width: 267px;
 }
 
@@ -287,7 +287,7 @@ Fifth set of icons - Yellow
     border: 2.5px solid #FFF;
     border-left: none;
     padding: 50px;
-    height: 200px;
+    height: 232px;
     width: 410px;
 }
 
@@ -295,10 +295,116 @@ Fifth set of icons - Yellow
 Sixth set of icons - Purple
 --------------------------------------------------------------*/
 .icon6-container{
-    float: left;
+    position: absolute;
+    top: 273px;
+    left: 513px;
     background-color: #644CA2;
     border: 2.5px solid #FFF;
     padding: 50px;
-    height: 150px;
+    height: 162px;
+    width: 162px;
+}
+
+/*--------------------------------------------------------------
+Seventh set of icons - Red
+--------------------------------------------------------------*/
+.icon7-container{
+    position: absolute;
+    top: 213px;
+    left: 780px;
+    background-color: #FF5952;
+    border: 2.5px solid #FFF;
+    padding: 50px;
+    height: 162px;
+    width: 666px;
+}
+
+/*--------------------------------------------------------------
+Eigth set of icons - Blue
+--------------------------------------------------------------*/
+.icon8-container{
+    position: absolute;
+    top: 373px;
+    left: 1551px;
+    background-color: #3E77E9;
+    border: 2.5px solid #FFF;
+    border-right: none;
+    padding: 50px;
+    height: 270px;
+    width: 266px;
+}
+
+/*--------------------------------------------------------------
+Ninth set of icons - Blue
+--------------------------------------------------------------*/
+.icon9-container{
+    position: absolute;
+    top: 540px;
+    background-color: #3E77E9;
+    border: 2.5px solid #FFF;
+    border-left: none;
+    border-bottom: none;
+    padding: 50px;
+    height: 304px;
+    width: 286px;
+}
+
+/*--------------------------------------------------------------
+Tenth set of icons - Green
+--------------------------------------------------------------*/
+.icon10-container{
+    position: absolute;
+    top: 540px;
+    left: 389px;
+    background-color: #4FC775;
+    border: 2.5px solid #FFF;
+    border-bottom: none;
+    padding: 50px;
+    height: 304px;
+    width: 286px;
+}
+
+/*--------------------------------------------------------------
+Eleventh set of icons - Yellow
+--------------------------------------------------------------*/
+.icon11-container{
+    position: absolute;
+    top: 480px;
+    left: 780px;
+    background-color: #FFD656;
+    border: 2.5px solid #FFF;
+    border-bottom: none;
+    padding: 50px;
+    height: 364px;
     width: 150px;
+}
+
+/*--------------------------------------------------------------
+Twelfth set of icons - Purple
+--------------------------------------------------------------*/
+.icon12-container{
+    position: absolute;
+    top: 480px;
+    left: 1035px;
+    background-color: #644CA2;
+    border: 2.5px solid #FFF;
+    padding: 50px;
+    height: 163px;
+    width: 411px;
+}
+
+/*--------------------------------------------------------------
+Thirteenth set of icons - Red
+--------------------------------------------------------------*/
+.icon13-container{
+    position: absolute;
+    top: 748px;
+    left: 1035px;
+    background-color: #FF5952;
+    border: 2.5px solid #FFF;
+    border-right: none;
+    border-bottom: none;
+    padding: 50px;
+    height: 96px;
+    width: 782px;
 }
