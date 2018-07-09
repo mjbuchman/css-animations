@@ -3,7 +3,31 @@ General Layout
 --------------------------------------------------------------*/
 body{
     margin: 0;
-    background-color: black;
+}
+
+ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.icon10-container a span{
+    margin-left: 30px;
+}
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+.icon10-container a{
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.icon10-container a span{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -350,7 +374,7 @@ Ninth set of icons - Blue - Bottom Left
 }
 
 /*--------------------------------------------------------------
-Tenth set of icons - Green - Bottom Middle
+Tenth set of icons - Green Pressed Button Icons - Bottom Middle
 --------------------------------------------------------------*/
 .icon10-container{
     position: absolute;
@@ -359,9 +383,81 @@ Tenth set of icons - Green - Bottom Middle
     background-color: #4FC775;
     border: 2.5px solid #FFF;
     border-bottom: none;
-    padding: 50px;
-    height: 304px;
-    width: 286px;
+    height: 404px;
+    width: 386px;
+}
+
+.icon10-container a {
+	position: relative;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    border-radius: 6px;
+    height: 35px;
+   	width: 160px;
+	text-align: left;
+	transform: translate(0, 0);
+	transition: all .2s ease;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin: 25px 40px 25px 0px;
+    padding-left: 15px;
+}
+
+.icon10-container a:active {
+    transform: translate(0, 3px);
+}
+
+.icon10-container .fa-facebook{
+    background: #3B5997;
+    margin-left: 3px;
+    color: white;
+    box-shadow: 0px 6px 0px #293F63;
+}
+
+.icon10-container .fa-facebook:active{
+    box-shadow: 0px 2px 0px #293F63;
+}
+
+.icon10-container .fa-twitter{
+    background: #2CA9E1;
+    color: white;
+    box-shadow: 0px 6px 0px #2695BC;
+}
+
+.icon10-container .fa-twitter:active{
+    box-shadow: 0px 2px 0px #2695BC;
+}
+
+.icon10-container .fa-linkedin{
+    background: #0073B2;
+    color: white;
+    box-shadow: 0px 6px 0px #005377;
+}
+
+.icon10-container .fa-linkedin:active{
+    box-shadow: 0px 2px 0px #005377;
+}
+
+.icon10-container .fa-pinterest{
+    background: #CD1D1F;
+    color: white;
+    box-shadow: 0px 6px 0px #8C151B;
+}
+
+.icon10-container .fa-pinterest:active{
+    box-shadow: 0px 2px 0px #8C151B;
+}
+
+.icon10-container .fa-flickr{
+    background: #FC1090;
+    color: white;
+    box-shadow: 0px 6px 0px #C10E78;
+}
+
+.icon10-container .fa-flickr:active{
+    box-shadow: 0px 2px 0px #C10E78;
 }
 
 /*--------------------------------------------------------------
