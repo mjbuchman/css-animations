@@ -7,7 +7,7 @@ body{
 }
 
 /*--------------------------------------------------------------
-First set of icons - Red Flip Card Icons
+First set of icons - Red Flip Card Icons - Top Left
 --------------------------------------------------------------*/
 .icon1-container{
     float: left;
@@ -92,7 +92,7 @@ First set of icons - Red Flip Card Icons
 }
 
 /*--------------------------------------------------------------
-Second set of icons - Blue Circle 3x3 Icons
+Second set of icons - Blue Circle 3x3 Icons - Top Middle
 --------------------------------------------------------------*/
 .icon2-container{
     float: left;
@@ -166,7 +166,7 @@ Second set of icons - Blue Circle 3x3 Icons
 }
 
 /*--------------------------------------------------------------
-Third set of icons - Green Slide Down Icons
+Third set of icons - Green Slide Down Icons - Top Middle
 --------------------------------------------------------------*/
 .icon3-container{
     float: left;
@@ -263,7 +263,7 @@ Third set of icons - Green Slide Down Icons
 }
 
 /*--------------------------------------------------------------
-Fourth set of icons - Yellow
+Fourth set of icons - Yellow - Top Right
 --------------------------------------------------------------*/
 .icon4-container{
     float: left;
@@ -277,7 +277,7 @@ Fourth set of icons - Yellow
 }
 
 /*--------------------------------------------------------------
-Fifth set of icons - Yellow
+Fifth set of icons - Yellow - Left Side Middle
 --------------------------------------------------------------*/
 .icon5-container{
     position: absolute;
@@ -292,7 +292,7 @@ Fifth set of icons - Yellow
 }
 
 /*--------------------------------------------------------------
-Sixth set of icons - Purple
+Sixth set of icons - Purple - Middle Left
 --------------------------------------------------------------*/
 .icon6-container{
     position: absolute;
@@ -306,7 +306,7 @@ Sixth set of icons - Purple
 }
 
 /*--------------------------------------------------------------
-Seventh set of icons - Red
+Seventh set of icons - Red - Middle Right
 --------------------------------------------------------------*/
 .icon7-container{
     position: absolute;
@@ -320,7 +320,7 @@ Seventh set of icons - Red
 }
 
 /*--------------------------------------------------------------
-Eigth set of icons - Blue
+Eighth set of icons - Blue - Right Side Middle
 --------------------------------------------------------------*/
 .icon8-container{
     position: absolute;
@@ -335,7 +335,7 @@ Eigth set of icons - Blue
 }
 
 /*--------------------------------------------------------------
-Ninth set of icons - Blue
+Ninth set of icons - Blue - Bottom Left
 --------------------------------------------------------------*/
 .icon9-container{
     position: absolute;
@@ -350,7 +350,7 @@ Ninth set of icons - Blue
 }
 
 /*--------------------------------------------------------------
-Tenth set of icons - Green
+Tenth set of icons - Green - Bottom Middle
 --------------------------------------------------------------*/
 .icon10-container{
     position: absolute;
@@ -365,7 +365,7 @@ Tenth set of icons - Green
 }
 
 /*--------------------------------------------------------------
-Eleventh set of icons - Yellow
+Eleventh set of icons - Yellow - Bottom Middle
 --------------------------------------------------------------*/
 .icon11-container{
     position: absolute;
@@ -380,7 +380,7 @@ Eleventh set of icons - Yellow
 }
 
 /*--------------------------------------------------------------
-Twelfth set of icons - Purple
+Twelfth set of icons - Purple - Middle Right
 --------------------------------------------------------------*/
 .icon12-container{
     position: absolute;
@@ -394,7 +394,7 @@ Twelfth set of icons - Purple
 }
 
 /*--------------------------------------------------------------
-Thirteenth set of icons - Red
+Thirteenth set of icons - Red - Bottom Right
 --------------------------------------------------------------*/
 .icon13-container{
     position: absolute;
