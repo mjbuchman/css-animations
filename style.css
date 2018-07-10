@@ -12,6 +12,10 @@ ul{
     margin-top: 40px;
 }
 
+.icon9-container a span{
+    margin-left: 30px;
+}
+
 .icon10-container a span{
     margin-left: 30px;
 }
@@ -19,6 +23,15 @@ ul{
 /*--------------------------------------------------------------
 Typography
 --------------------------------------------------------------*/
+.icon9-container a{
+    font-size: 24px;
+}
+
+.icon9-container a span, span2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
 .icon10-container a{
     font-size: 24px;
     line-height: 35px;
@@ -423,7 +436,7 @@ Eighth set of icons - Blue - Right Side Middle
 }
 
 /*--------------------------------------------------------------
-Ninth set of icons - Blue - Bottom Left
+Ninth set of icons - Blue Scrolling Text - Bottom Left
 --------------------------------------------------------------*/
 .icon9-container{
     position: absolute;
@@ -432,9 +445,102 @@ Ninth set of icons - Blue - Bottom Left
     border: 2.5px solid #FFF;
     border-left: none;
     border-bottom: none;
-    padding: 50px;
-    height: 304px;
-    width: 286px;
+    height: 404px;
+    width: 386px;
+}
+
+.icon9-container a {
+	position: relative;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    height: 35px;
+   	width: 160px;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin: 25px 40px 25px 0px;
+    padding-left: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon9-container span{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.icon9-container span2{
+    position: relative;
+    top: 3px;
+    left: 150px;
+}
+
+@keyframes scrollLeftSpan{
+    0%{
+        position: relative;
+    }
+
+    100%{
+        position: relative;
+        left: -210px;
+    }
+}
+
+@keyframes scrollLeftSpan2{
+    0%{
+        position: relative;
+    }
+
+    100%{
+        position: relative;
+        left: -60px;
+    }
+}
+
+.icon9-container a:hover > span{
+    animation-name: scrollLeftSpan;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+}
+
+.icon9-container a:hover > span2{
+    animation-name: scrollLeftSpan2;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+}
+
+.icon9-container .facebook{
+    background-size: 190% 100%;
+    background-image: linear-gradient(to right, #3B5998 50%, #293F63 50%);
+    transition: background-position 2.2s;
+}
+
+.icon-container .facebook:hover{
+    background-position: 0 -100%;
+    transition: 2.2s;
+}
+
+.icon9-container .twitter{
+    background: #2CA9E1;
+    color: white;
+}
+
+
+.icon9-container .linkedin{
+    background: #0073B2;
+    color: white;
+}
+
+.icon9-container .pinterest{
+    background: #CD1D1F;
+    color: white;
+}
+
+.icon9-container .flickr{
+    background: #FC1090;
+    color: white;
 }
 
 /*--------------------------------------------------------------
