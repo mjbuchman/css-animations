@@ -12,14 +12,6 @@ ul{
     margin-top: 40px;
 }
 
-.icon9-container a span{
-    margin-left: 30px;
-}
-
-.icon10-container a span{
-    margin-left: 30px;
-}
-
 /*--------------------------------------------------------------
 Typography
 --------------------------------------------------------------*/
@@ -27,7 +19,7 @@ Typography
     font-size: 24px;
 }
 
-.icon9-container a span, span2{
+.icon9-container a span, span2, span3{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
@@ -465,16 +457,14 @@ Ninth set of icons - Blue Scrolling Text - Bottom Left
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.icon9-container span{
-    position: relative;
-    top: 3px;
-    left: 5px;
+.icon9-container a span{
+    margin-left: 30px;
 }
 
-.icon9-container span2{
+.icon9-container span2, span3{
     position: relative;
     top: 3px;
-    left: 150px;
+    left: 90px;
 }
 
 @keyframes scrollLeftSpan{
@@ -499,50 +489,129 @@ Ninth set of icons - Blue Scrolling Text - Bottom Left
     }
 }
 
+/* Fixes alignment issue on some boxes */
+@keyframes scrollLeftSpan3{
+    0%{
+        position: relative;
+    }
+
+    100%{
+        position: relative;
+        left: -50px;
+    }
+}
+
 .icon9-container a:hover > span{
     animation-name: scrollLeftSpan;
-    animation-duration: 2.2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
 }
 
 .icon9-container a:hover > span2{
     animation-name: scrollLeftSpan2;
-    animation-duration: 2.2s;
+    animation-duration: .8s;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+.icon9-container a:hover > span3{
+    animation-name: scrollLeftSpan3;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
 }
 
 .icon9-container .facebook{
-    background-size: 190% 100%;
+    background-size: 200% 100%;
     background-image: linear-gradient(to right, #3B5998 50%, #293F63 50%);
-    transition: background-position 2.2s;
+    transition: background-position .75s;
 }
 
-.icon-container .facebook:hover{
-    background-position: 0 -100%;
-    transition: 2.2s;
+.icon9-container .facebook span{
+    position: relative;
+    top: 3px;
+    left: -5px;
+}
+
+.icon9-container .facebook:hover{
+    background-position: 90% 0;
+    transition: .75s;
+    transition-timing-function: linear;
 }
 
 .icon9-container .twitter{
-    background: #2CA9E1;
-    color: white;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #2CA9E1 50%, #2695BC 50%);
+    transition: background-position .75s;
 }
 
+.icon9-container .twitter span{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.icon9-container .twitter:hover{
+    background-position: 90% 0;
+    transition: .75s;
+    transition-timing-function: linear;
+}
 
 .icon9-container .linkedin{
-    background: #0073B2;
-    color: white;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #0073B2 50%, #005377 50%);
+    transition: background-position .75s;
+}
+
+.icon9-container .linkedin span{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.icon9-container .linkedin:hover{
+    background-position: 90% 0;
+    transition: .75s;
+    transition-timing-function: linear;
 }
 
 .icon9-container .pinterest{
-    background: #CD1D1F;
-    color: white;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #CD1D1F 50%, #8C151B 50%);
+    transition: background-position .75s;
 }
+
+.icon9-container .pinterest span{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.icon9-container .pinterest:hover{
+    background-position: 90% 0;
+    transition: .75s;
+    transition-timing-function: linear;
+}
+
 
 .icon9-container .flickr{
-    background: #FC1090;
-    color: white;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #FC1090 50%, #C10E78 50%);
+    transition: background-position .75s;
 }
 
+.icon9-container .flickr span{
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.icon9-container .flickr:hover{
+    background-position: 90% 0;
+    transition: .75s;
+    transition-timing-function: linear;
+}
 /*--------------------------------------------------------------
 Tenth set of icons - Green Pressed Button Icons - Bottom Middle
 --------------------------------------------------------------*/
@@ -577,6 +646,10 @@ Tenth set of icons - Green Pressed Button Icons - Bottom Middle
 
 .icon10-container a:active {
     transform: translate(0, 3px);
+}
+
+.icon10-container a span{
+    margin-left: 30px;
 }
 
 .icon10-container .fa-facebook{
