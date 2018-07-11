@@ -325,46 +325,46 @@ Fourth set of icons - Yellow Hover Expand Icons - Top Right
 
 .icon4-container .fa-facebook{
     color: #fff;
+    transition: transform .5s ease-in-out;
 }
 
 .icon4-container .fa-facebook:hover{
     color: #FFD656;
     background-color: #3B5998;
     transform: scale(1.4);
-    transition: .5s;
 }
 
 .icon4-container .fa-twitter{
     color: #fff;
+    transition: transform .5s ease-in-out;
 }
 
 .icon4-container .fa-twitter:hover{
     color: #FFD656;
     background-color: #55ACEE;
     transform: scale(1.4);
-    transition: .5s;
 }
 
 .icon4-container .fa-linkedin{
     color: #fff;
+    transition: transform .5s ease-in-out;
 }
 
 .icon4-container .fa-linkedin:hover{
     color: #FFD656;
     background-color: #0077B5;
     transform: scale(1.4);
-    transition: .5s;
 }
 
 .icon4-container .fa-google{
     color: #fff;
+    transition: transform .5s ease-in-out;
 }
 
 .icon4-container .fa-google:hover{
     color: #FFD656;
     background-color: #DD4B39;
     transform: scale(1.4);
-    transition: .5s;
 }
 
 
@@ -468,11 +468,83 @@ Eighth set of icons - Blue - Right Side Middle
     background-color: #3E77E9;
     border: 2.5px solid #FFF;
     border-right: none;
-    padding: 50px;
-    height: 270px;
-    width: 266px;
+    height: 370px;
+    width: 366px;
 }
 
+#img-container{
+    position: relative;
+    background-color: #FFF;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+#img-container:hover{
+    opacity: .9;
+}
+
+.icon8-container img{
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.icon8-container .fa{
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    font-size: 30px;
+    color: #FFF;
+    width: 58px;
+    height: 43px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 4px;
+	border-radius: 100%;
+    padding-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0;
+}
+
+.icon8-container .fa-facebook{
+    background-color: #3B5998;
+    transition: transform .8s ease-in-out;
+}
+
+.icon8-container .fa-facebook:hover{
+    transform: rotate(360deg) scale(1.4);
+}
+
+.icon8-container .fa-twitter{
+    background-color: #55ACEE;
+    transition: transform .8s ease-in-out;
+}
+
+.icon8-container .fa-twitter:hover{
+    transform: rotate(360deg) scale(1.4);
+}
+
+.icon8-container .fa-linkedin{
+    background-color: #0077B5;
+    transition: transform .8s ease-in-out;
+}
+
+.icon8-container .fa-linkedin:hover{
+    transform: rotate(360deg) scale(1.4);
+}
+
+.icon8-container .fa-google{
+    background-color: #DD4B39;
+    transition: transform .8s ease-in-out;
+}
+
+.icon8-container .fa-google:hover{
+    transform: rotate(360deg) scale(1.4);
+}
 /*--------------------------------------------------------------
 Ninth set of icons - Blue Scrolling Text - Bottom Left
 --------------------------------------------------------------*/
