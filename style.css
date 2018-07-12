@@ -472,52 +472,45 @@ Eighth set of icons - Blue - Right Side Middle
     width: 366px;
 }
 
-.mover8{
-    z-index: 2;
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"] + label{
+    display:inline-block;
+    width: 59px;
     height: 60px;
-    width: 60px;
-    border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background: #000;
-}
-
-.mover8:hover{
-    cursor: pointer;
-}
-
-.mover8:active > .fa-facebook{
-    transform: translate(0, -100px);
-}
-
-.mover8:active > .fa-twitter{
-    transform: translate(100px, 0);
-}
-
-.mover8:active > .fa-linkedin{
-    transform: translate(0, 100px);
-}
-
-.mover8:active > .fa-google{
-    transform: translate(-100px, 0);
-}
-
-#img-container{
+    background-color: #FFF;
+    vertical-align: middle;
+    background:url("resources\\menuButton.png") left top no-repeat;
+    cursor:pointer;
     z-index: 1;
     position: relative;
-    background-color: #FFF;
-    height: 60px;
-    width: 60px;
+    top: 149px;
+    left: 153px;
     border-radius: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
+
 }
 
-.icon8-container img{
-    margin-left: 14px;
-    margin-top: 14px;
+input[type="checkbox"]:checked + label ~ .fa-facebook{
+    transform: translate(0, -100px);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="checkbox"]:checked + label ~ .fa-twitter{
+    transform: translate(100px, 0);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="checkbox"]:checked + label ~ .fa-linkedin{
+    transform: translate(0, 100px);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="checkbox"]:checked + label ~ .fa-google{
+    transform: translate(-100px, 0);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .icon8-container .fa{
@@ -534,7 +527,6 @@ Eighth set of icons - Blue - Right Side Middle
     margin: 10px 4px;
 	border-radius: 100%;
     padding-top: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .icon8-container .fa-facebook{
