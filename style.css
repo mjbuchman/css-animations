@@ -431,7 +431,7 @@ Fifth set of icons - Yellow Spin-Grow Icons - Left Side Middle
     transform: rotate(360deg) scale(1.4);
 }
 /*--------------------------------------------------------------
-Sixth set of icons - Purple - Middle Left
+Sixth set of icons - Purple Neon Glow Icons - Middle Left
 --------------------------------------------------------------*/
 .icon6-container{
     position: absolute;
@@ -439,9 +439,145 @@ Sixth set of icons - Purple - Middle Left
     left: 513px;
     background-color: #644CA2;
     border: 2.5px solid #FFF;
-    padding: 50px;
-    height: 162px;
-    width: 162px;
+    height: 262px;
+    width: 262px;}
+
+.icon6-container .fa{
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 4px;
+	border-radius: 40%;
+    margin-left: 12px;
+    margin-top: 11px;
+}
+
+.icon6-container .fa-facebook{
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+}
+
+.icon6-container .fa-facebook:hover{
+    border: 5px solid #3B5998;
+    box-shadow: 0 0 15px #3B5998;
+    color: #3B5998;
+    text-shadow: 0 0 15px #3B5998;
+    transition: all 0.5s ease;
+}
+
+.icon6-container .fa-twitter{
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+}
+
+.icon6-container .fa-twitter:hover{
+    border: 5px solid #59AEEE;
+    box-shadow: 0 0 15px #59AEEE;
+    color: #59AEEE;
+    text-shadow: 0 0 15px #59AEEE;
+    transition: all 0.5s ease;
+}
+
+.icon6-container .fa-google{
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+}
+
+.icon6-container .fa-google:hover{
+    border: 5px solid #DD4B39;
+    box-shadow: 0 0 15px #DD4B39;
+    color: #DD4B39;
+    text-shadow: 0 0 15px #DD4B39;
+    transition: all 0.5s ease;
+}
+
+.icon6-container .fa-youtube{
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+}
+
+.icon6-container .fa-youtube:hover{
+    border: 5px solid #BB0000;
+    box-shadow: 0 0 15px #BB0000;
+    color: #BB0000;
+    text-shadow: 0 0 15px #BB0000;
+    transition: all 0.5s ease;
+}
+
+.icon6-container .fa-dribbble{
+    background: transparent;
+    border: 3px solid white;
+	color: white;
+}
+
+.icon6-container .fa-dribbble:hover{
+    border: 5px solid #EA4C89;
+    box-shadow: 0 0 15px #EA4C89;
+    color: #EA4C89;
+    text-shadow: 0 0 15px #EA4C89;
+    transition: all 0.5s ease;
+}
+
+.icon6-container .fa-linkedin{
+    background: transparent;
+    border: 3px solid white;
+	color: white;
+}
+
+.icon6-container .fa-linkedin:hover{
+    border: 5px solid #0077B5;
+    box-shadow: 0 0 15px #0077B5;
+    color: #0077B5;
+    text-shadow: 0 0 15px #0077B5;
+    transition: all 0.5s ease;
+}
+
+.icon6-container .fa-tumblr{
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+}
+
+.icon6-container .fa-tumblr:hover{
+    border: 5px solid #2C4762;
+    box-shadow: 0 0 15px #2C4762;
+    color: #2C4762;
+    text-shadow: 0 0 15px #2C4762;
+    transition: all 0.5s ease;
+}
+
+.icon6-container .fa-pinterest{
+    background: transparent;
+    border: 3px solid white;
+	color: white;
+}
+
+.icon6-container .fa-pinterest:hover{
+    border: 5px solid #CB2027;
+    box-shadow: 0 0 15px #CB2027;
+    color: #CB2027;
+    text-shadow: 0 0 15px #CB2027;
+    transition: all 0.5s ease;
+}
+
+.icon6-container .fa-rss{
+    background: transparent;
+    border: 3px solid white;
+    color: white;
+}
+
+.icon6-container .fa-rss:hover{
+    border: 5px solid #FF6000;
+    box-shadow: 0 0 15px #FF6000;
+    color: #FF6000;
+    text-shadow: 0 0 15px #FF6000;
+    transition: all 0.5s ease;
 }
 
 /*--------------------------------------------------------------
