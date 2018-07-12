@@ -145,7 +145,7 @@ Second set of icons - Blue Circle 3x3 Icons - Top Middle
 .icon2-container .fa:hover{
     color: black;
     background-color: white;
-    transition: .8s;
+    transition: .8s ;
     opacity: .8;
 }
 
@@ -459,7 +459,7 @@ Seventh set of icons - Red - Middle Right
 }
 
 /*--------------------------------------------------------------
-Eighth set of icons - Blue - Right Side Middle
+Eighth set of icons - Blue Popout Menu Icons - Right Side Middle
 --------------------------------------------------------------*/
 .icon8-container{
     position: absolute;
@@ -494,22 +494,42 @@ input[type="checkbox"] + label{
 }
 
 input[type="checkbox"]:checked + label ~ .fa-facebook{
-    transform: translate(0, -100px);
+    transform: translate(-100px, -100px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 input[type="checkbox"]:checked + label ~ .fa-twitter{
-    transform: translate(100px, 0);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-}
-
-input[type="checkbox"]:checked + label ~ .fa-linkedin{
-    transform: translate(0, 100px);
+    transform: translate(0, -100px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 input[type="checkbox"]:checked + label ~ .fa-google{
+    transform: translate(100px, -100px);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="checkbox"]:checked + label ~ .fa-youtube{
     transform: translate(-100px, 0);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="checkbox"]:checked + label ~ .fa-linkedin{
+    transform: translate(100px, 0);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="checkbox"]:checked + label ~ .fa-tumblr{
+    transform: translate(-100px, 100px);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="checkbox"]:checked + label ~ .fa-pinterest{
+    transform: translate(0, 100px);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="checkbox"]:checked + label ~ .fa-rss{
+    transform: translate(100px, 100px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -527,38 +547,39 @@ input[type="checkbox"]:checked + label ~ .fa-google{
     margin: 10px 4px;
 	border-radius: 100%;
     padding-top: 15px;
+    transition: transform .5s ease-in-out;
 }
 
 .icon8-container .fa-facebook{
     background-color: #3B5998;
-    transition: transform .5s ease-in-out;
-}
-
-.icon8-container .fa-facebook:hover{
 }
 
 .icon8-container .fa-twitter{
     background-color: #55ACEE;
-    transition: transform .5s ease-in-out;
-}
-
-.icon8-container .fa-twitter:hover{
-}
-
-.icon8-container .fa-linkedin{
-    background-color: #0077B5;
-    transition: transform .5s ease-in-out;
-}
-
-.icon8-container .fa-linkedin:hover{
 }
 
 .icon8-container .fa-google{
     background-color: #DD4B39;
-    transition: transform .5s ease-in-out;
 }
 
-.icon8-container .fa-google:hover{
+.icon8-container .fa-youtube{
+    background-color: #BB0000;
+}
+
+.icon8-container .fa-linkedin{
+    background-color: #0077B5;
+}
+
+.icon8-container .fa-tumblr{
+    background-color: #2C4762;
+}
+
+.icon8-container .fa-pinterest{
+    background-color: #CB2027;
+}
+
+.icon8-container .fa-rss{
+    background-color: #FF6000;
 }
 
 /*--------------------------------------------------------------
@@ -872,7 +893,7 @@ Eleventh set of icons - Yellow - Bottom Middle
 }
 
 /*--------------------------------------------------------------
-Twelfth set of icons - Purple - Middle Right
+Twelfth set of icons - Purple Raise Up Icons- Middle Right
 --------------------------------------------------------------*/
 .icon12-container{
     position: absolute;
@@ -880,9 +901,84 @@ Twelfth set of icons - Purple - Middle Right
     left: 1035px;
     background-color: #644CA2;
     border: 2.5px solid #FFF;
-    padding: 50px;
-    height: 163px;
-    width: 411px;
+    height: 263px;
+    width: 511px;
+}
+
+.icon12-block{
+    width: 530px;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+
+.icon12-container .fa{
+    display: inline-block;
+    font-size: 30px;
+    width: 58px;
+    height: 43px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 4px;
+	border-radius: 100%;
+    padding-top: 15px;
+    background-color: #FFF;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.icon12-container .fa-facebook{
+    background-color: #3B5998;
+    color: #FFF;
+    border: 2px solid white;
+    transition: transform .5s ease-in-out;
+}
+
+.icon12-container .fa-facebook:hover{
+    transform: translate(0, -15px);
+}
+
+.icon12-container .fa-twitter{
+    background-color: #55ACEE;
+    color: #FFF;
+    border: 2px solid white;
+    transition: transform .5s ease-in-out;
+}
+
+.icon12-container .fa-twitter:hover{
+    transform: translate(0, -15px);
+}
+
+.icon12-container .fa-linkedin{
+    background-color: #0077B5;
+    color: #FFF;
+    border: 2px solid white;
+    transition: transform .5s ease-in-out;
+}
+
+.icon12-container .fa-linkedin:hover{
+    transform: translate(0, -15px);
+}
+
+.icon12-container .fa-google{
+    background-color: #DD4B39;
+    color: #FFF;
+    border: 2px solid white;
+    transition: transform .5s ease-in-out;
+}
+
+.icon12-container .fa-google:hover{
+    transform: translate(0, -15px);
+}
+
+.icon12-container .fa-rss{
+    background-color: #FF6000;
+    color: #FFF;
+    border: 2px solid white;
+    transition: transform .5s ease-in-out;
+}
+
+.icon12-container .fa-rss:hover{
+    transform: translate(0, -15px);
 }
 
 /*--------------------------------------------------------------
