@@ -39,7 +39,7 @@ Typography
 First set of icons - Red Flip Card Icons - Top Left
 --------------------------------------------------------------*/
 .icon1-container{
-    float: left;
+    position: absolute;
 	display: inline-block;
     height: 170px;
     background-color: #FF5952;
@@ -47,6 +47,7 @@ First set of icons - Red Flip Card Icons - Top Left
     border-top: none;
     border-left: none;
     padding-top: 30px;
+    min-width: 510px;
 }
 
 .flip-container {
@@ -124,12 +125,14 @@ First set of icons - Red Flip Card Icons - Top Left
 Second set of icons - Blue Circle 3x3 Icons - Top Middle
 --------------------------------------------------------------*/
 .icon2-container{
-    float: left;
+    position: absolute;
+    left: 513px;
     background-color: #3E77E9;
     border: 2.5px solid #FFF;
     border-top: none;
     padding-left: 10px;
     padding-right: 10px;
+    min-width: 242px;
 }
 
 .icon2-container .fa{
@@ -198,11 +201,13 @@ Second set of icons - Blue Circle 3x3 Icons - Top Middle
 Third set of icons - Green Slide Down Icons - Top Middle
 --------------------------------------------------------------*/
 .icon3-container{
-    float: left;
+    position: absolute;
+    left: 780px;
     background-color: #4FC775;
     border: 2.5px solid #FFF;
     border-top: none;
     padding: 50px;
+    min-width: 666px;
 }
 
 .icon3-container .fa{
@@ -295,13 +300,14 @@ Third set of icons - Green Slide Down Icons - Top Middle
 Fourth set of icons - Yellow Hover Expand Icons - Top Right
 --------------------------------------------------------------*/
 .icon4-container{
-    float: left;
+    position: absolute;
+    left: 1551px;
     background-color: #FFD656;
     border: 2.5px solid #FFF;
     border-top: none;
     border-right: none;
     height: 370px;
-    width: 367px;
+    width: 366px;
 }
 
 .icon4-container .fa{
@@ -374,7 +380,6 @@ Fifth set of icons - Yellow Spin-Grow Icons - Left Side Middle
 .icon5-container{
     position: absolute;
     top: 203px;
-    float: left;
     background-color: #FFD656;
     border: 2.5px solid #FFF;
     border-left: none;
