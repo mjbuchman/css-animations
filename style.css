@@ -443,6 +443,7 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
     width: 262px;}
 
 .icon6-container .fa{
+    position: absolute;
     padding: 20px;
     font-size: 20px;
     width: 20px;
@@ -469,6 +470,7 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
 }
 
 .icon6-container .fa-twitter{
+    left: 85px;
     background: transparent;
     border: 3px solid white;
     color: white;
@@ -483,6 +485,7 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
 }
 
 .icon6-container .fa-google{
+    left: 170px;
     background: transparent;
     border: 3px solid white;
     color: white;
@@ -497,6 +500,7 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
 }
 
 .icon6-container .fa-youtube{
+    top: 85px;
     background: transparent;
     border: 3px solid white;
     color: white;
@@ -511,6 +515,8 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
 }
 
 .icon6-container .fa-dribbble{
+    top: 85px;
+    left: 85px;
     background: transparent;
     border: 3px solid white;
 	color: white;
@@ -525,6 +531,8 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
 }
 
 .icon6-container .fa-linkedin{
+    top: 85px;
+    left: 170px;
     background: transparent;
     border: 3px solid white;
 	color: white;
@@ -539,6 +547,7 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
 }
 
 .icon6-container .fa-tumblr{
+    top: 170px;
     background: transparent;
     border: 3px solid white;
     color: white;
@@ -553,6 +562,8 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
 }
 
 .icon6-container .fa-pinterest{
+    top: 170px;
+    left: 85px;
     background: transparent;
     border: 3px solid white;
 	color: white;
@@ -567,6 +578,8 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
 }
 
 .icon6-container .fa-rss{
+    top: 170px;
+    left: 170px;
     background: transparent;
     border: 3px solid white;
     color: white;
