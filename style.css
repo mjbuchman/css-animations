@@ -472,7 +472,38 @@ Eighth set of icons - Blue - Right Side Middle
     width: 366px;
 }
 
+.mover8{
+    z-index: 2;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000;
+}
+
+.mover8:hover{
+    cursor: pointer;
+}
+
+.mover8:active > .fa-facebook{
+    transform: translate(0, -100px);
+}
+
+.mover8:active > .fa-twitter{
+    transform: translate(100px, 0);
+}
+
+.mover8:active > .fa-linkedin{
+    transform: translate(0, 100px);
+}
+
+.mover8:active > .fa-google{
+    transform: translate(-100px, 0);
+}
+
 #img-container{
+    z-index: 1;
     position: relative;
     background-color: #FFF;
     height: 60px;
@@ -484,16 +515,13 @@ Eighth set of icons - Blue - Right Side Middle
     margin-top: 150px;
 }
 
-#img-container:hover{
-    opacity: .9;
-}
-
 .icon8-container img{
     margin-left: 14px;
     margin-top: 14px;
 }
 
 .icon8-container .fa{
+    z-index: 0;
     position: absolute;
     top: 140px;
     left: 150px;
@@ -507,44 +535,40 @@ Eighth set of icons - Blue - Right Side Middle
 	border-radius: 100%;
     padding-top: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    opacity: 0;
 }
 
 .icon8-container .fa-facebook{
     background-color: #3B5998;
-    transition: transform .8s ease-in-out;
+    transition: transform .5s ease-in-out;
 }
 
 .icon8-container .fa-facebook:hover{
-    transform: rotate(360deg) scale(1.4);
 }
 
 .icon8-container .fa-twitter{
     background-color: #55ACEE;
-    transition: transform .8s ease-in-out;
+    transition: transform .5s ease-in-out;
 }
 
 .icon8-container .fa-twitter:hover{
-    transform: rotate(360deg) scale(1.4);
 }
 
 .icon8-container .fa-linkedin{
     background-color: #0077B5;
-    transition: transform .8s ease-in-out;
+    transition: transform .5s ease-in-out;
 }
 
 .icon8-container .fa-linkedin:hover{
-    transform: rotate(360deg) scale(1.4);
 }
 
 .icon8-container .fa-google{
     background-color: #DD4B39;
-    transition: transform .8s ease-in-out;
+    transition: transform .5s ease-in-out;
 }
 
 .icon8-container .fa-google:hover{
-    transform: rotate(360deg) scale(1.4);
 }
+
 /*--------------------------------------------------------------
 Ninth set of icons - Blue Scrolling Text - Bottom Left
 --------------------------------------------------------------*/
