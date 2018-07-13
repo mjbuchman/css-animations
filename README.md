@@ -6,6 +6,8 @@ Demonstrate CSS animation abilities as well as create a repository for social me
 ## How to Use
 Clone the [repository](https://github.com/mjbuchman/css-animations) and run the index.html file.
 
+## Features
+
 ## Resources Used
 ### Fonts:
 - https://fonts.googleapis.com/css?family=Fjalla+One
