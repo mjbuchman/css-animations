@@ -612,7 +612,7 @@ Seventh set of icons - Red - Middle Right
 }
 
 .icon7-block{
-    width: 620px;
+    width: 660px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
@@ -626,7 +626,6 @@ Seventh set of icons - Red - Middle Right
     text-decoration: none;
     text-align: center;
     margin: 10px 4px;
-	  border-radius: 100%;
     padding-top: 15px;
     background-color: #FFF;
     margin-right: 25px;
@@ -634,32 +633,52 @@ Seventh set of icons - Red - Middle Right
 }
 
 .icon7-container .fa-facebook{
-    color: #3B5998;
-    transition: transform .8s ease-in-out;
+    background-color: #3B5998;
+    color: #FFF;
+    border: 5px solid white;
+    transition: all .5s ease-in-out;
 }
 
 .icon7-container .fa-facebook:hover{
-    transform: rotate(360deg) scale(1.4);
+    transform: rotate(360deg);
+    border-radius: 50%;
 }
 
 .icon7-container .fa-twitter{
-    color: #55ACEE;
-    transition: transform .8s ease-in-out;
+    background-color: #55ACEE;
+    color: #FFF;
+    border: 5px solid white;
+    transition: all .5s ease-in-out;
 }
 
 .icon7-container .fa-twitter:hover{
-    transform: rotate(360deg) scale(1.4);
+    transform: rotate(360deg);
+    border-radius: 50%;
 }
 
 .icon7-container .fa-linkedin{
-    color: #0077B5;
-    transition: transform .8s ease-in-out;
+    background-color: #0077B5;
+    color: #FFF;
+    border: 5px solid white;
+    transition: all .5s ease-in-out;
 }
 
 .icon7-container .fa-linkedin:hover{
-    transform: rotate(360deg) scale(1.4);
+    transform: rotate(360deg);
+    border-radius: 50%;
 }
 
+.icon7-container .fa-google{
+    background-color: #DD4B39;
+    color: #FFF;
+    border: 5px solid white;
+    transition: all .5s ease-in-out;
+}
+
+.icon7-container .fa-google:hover{
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
 /*--------------------------------------------------------------
 Eighth set of icons - Blue Popout Menu Icons - Right Side Middle
 --------------------------------------------------------------*/
