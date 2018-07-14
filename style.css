@@ -50,77 +50,63 @@ First set of icons - Red Flip Card Icons - Top Left
     min-width: 510px;
 }
 
-.flip-container {
-	perspective: 1000px;
-	display: block;
-	float: left;
-	margin-left: 20px;
-	margin-right: 20px;
+.icon1-block{
+    width: 482px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
 }
 
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-	transform: rotateY(180deg);
+.icon1-container .fa{
+    display: inline-block;
+    font-size: 20px;
+    width: 40px;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 4px;
+    background-color: #FF7C75;
+    color: #FFF;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10%;
 }
 
-.flip-container, .front, .back {
-	width: 130px;
-	height: 130px;
+.icon1-container .fa-facebook{
+    transition: all .5s ease-in-out;
 }
 
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
+.icon1-container .fa-facebook:hover{
+    background-color: #FFA5A0;
 }
 
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
+.icon1-container .fa-twitter{
+    transition: all .5s ease-in-out;
 }
 
-.front {
-	z-index: 2;
-	transform: rotateY(0deg);
+.icon1-container .fa-twitter:hover{
+    background-color: #FFA5A0;
+
 }
 
-.back {
-	transform: rotateY(180deg);
+.icon1-container .fa-linkedin{
+    transition: all .5s ease-in-out;
 }
 
-#facebook-box-front{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #FF7C75;
+.icon1-container .fa-linkedin:hover{
+    background-color: #FFA5A0;
+
 }
 
-#facebook-box-back{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #3B5998;
+.icon1-container .fa-google{
+    transition: all .5s ease-in-out;
 }
 
-#twitter-box-front{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #FF7C75;
-}
+.icon1-container .fa-google:hover{
+    background-color: #FFA5A0;
 
-#twitter-box-back{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #55ACEE;
 }
-
-#linkedin-box-front{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #FF7C75;
-}
-
-#linkedin-box-back{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #0077B5;
-}
-
 /*--------------------------------------------------------------
 Second set of icons - Blue Circle 3x3 Icons - Top Middle
 --------------------------------------------------------------*/
@@ -1213,7 +1199,77 @@ Thirteenth set of icons - Red - Bottom Right
     border: 2.5px solid #FFF;
     border-right: none;
     border-bottom: none;
-    padding: 50px;
-    height: 96px;
-    width: 782px;
+    height: 196px;
+    width: 882px;
+}
+
+.flip-container {
+	perspective: 1000px;
+	display: block;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 130px;
+	height: 130px;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+.back {
+	transform: rotateY(180deg);
+}
+
+#facebook-box-front{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #FF7C75;
+}
+
+#facebook-box-back{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #3B5998;
+}
+
+#twitter-box-front{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #FF7C75;
+}
+
+#twitter-box-back{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #55ACEE;
+}
+
+#linkedin-box-front{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #FF7C75;
+}
+
+#linkedin-box-back{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #0077B5;
 }
