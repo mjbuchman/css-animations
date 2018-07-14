@@ -41,17 +41,16 @@ First set of icons - Red Flip Card Icons - Top Left
 .icon1-container{
     position: absolute;
 	display: inline-block;
-    height: 170px;
+    height: 200px;
     background-color: #FF5952;
     border: 2.5px solid #fff;
     border-top: none;
     border-left: none;
-    padding-top: 30px;
     min-width: 510px;
 }
 
 .icon1-block{
-    width: 482px;
+    width: 430px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
@@ -74,7 +73,7 @@ First set of icons - Red Flip Card Icons - Top Left
 }
 
 .icon1-container .fa-facebook{
-    transition: all .5s ease-in-out;
+
 }
 
 .icon1-container .fa-facebook:hover{
@@ -82,7 +81,7 @@ First set of icons - Red Flip Card Icons - Top Left
 }
 
 .icon1-container .fa-twitter{
-    transition: all .5s ease-in-out;
+
 }
 
 .icon1-container .fa-twitter:hover{
@@ -90,20 +89,51 @@ First set of icons - Red Flip Card Icons - Top Left
 
 }
 
-.icon1-container .fa-linkedin{
-    transition: all .5s ease-in-out;
+.icon1-container .fa-google{
+
 }
 
-.icon1-container .fa-linkedin:hover{
+.icon1-container .fa-google:hover{
     background-color: #FFA5A0;
 
 }
 
-.icon1-container .fa-google{
-    transition: all .5s ease-in-out;
+.icon1-container .fa-linkedin{
 }
 
-.icon1-container .fa-google:hover{
+.icon1-container .fa-linkedin:hover{
+    background-color: #FFA5A0;
+}
+
+.icon1-container .fa-youtube{
+
+}
+
+.icon1-container .fa-youtube:hover{
+    background-color: #FFA5A0;
+
+}
+
+.icon1-container .fa-tumblr{
+}
+
+.icon1-container .fa-tumblr:hover{
+    background-color: #FFA5A0;
+
+}
+
+.icon1-container .fa-pinterest{
+}
+
+.icon1-container .fa-pinterest:hover{
+    background-color: #FFA5A0;
+
+}
+
+.icon1-container .fa-rss{
+}
+
+.icon1-container .fa-rss:hover{
     background-color: #FFA5A0;
 
 }
@@ -1199,8 +1229,10 @@ Thirteenth set of icons - Red - Bottom Right
     border: 2.5px solid #FFF;
     border-right: none;
     border-bottom: none;
-    height: 196px;
-    width: 882px;
+    padding-top: 30px;
+    padding-left: 20px;
+    height: 166px;
+    width: 862px;
 }
 
 .flip-container {
@@ -1272,4 +1304,24 @@ Thirteenth set of icons - Red - Bottom Right
 #linkedin-box-back{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background-color: #0077B5;
+}
+
+#google-box-front{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #FF7C75;
+}
+
+#google-box-back{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #DD4B39;
+}
+
+#rss-box-front{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #FF7C75;
+}
+
+#rss-box-back{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #FF6000;
 }
