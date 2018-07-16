@@ -42,6 +42,57 @@ Typography
 }
 
 /*--------------------------------------------------------------
+Popout Menu Bar
+--------------------------------------------------------------*/
+.menu{
+    z-index: 2;
+    display: block;
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    transition: .5s;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+#menu{
+    height: 80px;
+    width: 25px;
+    background-color: #333;
+    border-right: 1px solid #666;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    outline: none;
+}
+
+#menu:hover{
+    cursor: pointer;
+}
+
+#menu img{
+    transition: .5s
+}
+
+.sidenav{
+    position: fixed;
+    z-index: 2;
+    background-color: #333;
+    top: 85px;
+    right: 0px;
+    height: 200px;
+    width: 0px;
+    transition: .5s;
+
+}
+
+
+
+/*--------------------------------------------------------------
 First set of icons - Red Flip Card Icons - Top Left
 --------------------------------------------------------------*/
 .icon1-container{
