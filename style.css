@@ -158,7 +158,7 @@ First set of icons - Red Flip Card Icons - Top Left
 }
 
 .icon1-container .fa-rss{
-	
+
 }
 
 .icon1-container .fa-rss:hover{
@@ -737,11 +737,11 @@ Eighth set of icons - Blue Popout Menu Icons - Right Side Middle
     width: 366px;
 }
 
-input[type="checkbox"] {
+.icon8-container input[type="checkbox"] {
     display:none;
 }
 
-input[type="checkbox"] + label{
+.icon8-container input[type="checkbox"] + label{
     display:inline-block;
     width: 59px;
     height: 60px;
@@ -758,42 +758,42 @@ input[type="checkbox"] + label{
 
 }
 
-input[type="checkbox"]:checked + label ~ .fa-facebook{
+.icon8-container input[type="checkbox"]:checked + label ~ .fa-facebook{
     transform: translate(-100px, -100px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-input[type="checkbox"]:checked + label ~ .fa-twitter{
+.icon8-container input[type="checkbox"]:checked + label ~ .fa-twitter{
     transform: translate(0, -100px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-input[type="checkbox"]:checked + label ~ .fa-google{
+.icon8-container input[type="checkbox"]:checked + label ~ .fa-google{
     transform: translate(100px, -100px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-input[type="checkbox"]:checked + label ~ .fa-youtube{
+.icon8-container input[type="checkbox"]:checked + label ~ .fa-youtube{
     transform: translate(-100px, 0);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-input[type="checkbox"]:checked + label ~ .fa-linkedin{
+.icon8-container input[type="checkbox"]:checked + label ~ .fa-linkedin{
     transform: translate(100px, 0);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-input[type="checkbox"]:checked + label ~ .fa-tumblr{
+.icon8-container input[type="checkbox"]:checked + label ~ .fa-tumblr{
     transform: translate(-100px, 100px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-input[type="checkbox"]:checked + label ~ .fa-pinterest{
+.icon8-container input[type="checkbox"]:checked + label ~ .fa-pinterest{
     transform: translate(0, 100px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-input[type="checkbox"]:checked + label ~ .fa-rss{
+.icon8-container input[type="checkbox"]:checked + label ~ .fa-rss{
     transform: translate(100px, 100px);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
@@ -1152,9 +1152,116 @@ Eleventh set of icons - Yellow - Bottom Middle
     background-color: #FFD656;
     border: 2.5px solid #FFF;
     border-bottom: none;
-    padding: 50px;
-    height: 364px;
-    width: 150px;
+    height: 464px;
+    width: 250px;
+}
+
+.icon11-container input[type="checkbox"] {
+    display:none;
+}
+
+.icon11-container input[type="checkbox"] + label{
+    display:inline-block;
+    width: 59px;
+    height: 60px;
+    background-color: #FFF;
+    vertical-align: middle;
+    background:url("resources\\menuButton.png") left top no-repeat;
+    cursor:pointer;
+    z-index: 1;
+    position: relative;
+    top: 40px;
+    left: 95px;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon11-container input[type="checkbox"]:checked + label ~ .fa-facebook{
+    transform: translate(-0, 80px);
+    transition: all 800ms cubic-bezier(0.140, 1.650, 1.000, 1.000);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon11-container input[type="checkbox"]:checked + label ~ .fa-twitter{
+    transform: translate(0, 140px);
+    transition: all 800ms cubic-bezier(0.140, 1.650, 1.000, 1.000);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon11-container input[type="checkbox"]:checked + label ~ .fa-linkedin{
+    transform: translate(0, 200px);
+    transition: all 800ms cubic-bezier(0.140, 1.650, 1.000, 1.000);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon11-container input[type="checkbox"]:checked + label ~ .fa-google{
+    transform: translate(0px, 260px);
+    transition: all 800ms cubic-bezier(0.140, 1.650, 1.000, 1.000);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon11-container input[type="checkbox"]:checked + label ~ .fa-rss{
+    transform: translate(0, 320px);
+    transition: all 800ms cubic-bezier(0.140, 1.650, 1.000, 1.000);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon11-container .fa{
+    z-index: 0;
+    position: absolute;
+    top: 30px;
+    left: 97px;
+    font-size: 18px;
+    color: #FFF;
+    width: 40px;
+    height: 28px;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid white;
+    margin: 10px 4px;
+	border-radius: 100%;
+    padding-top: 12px;
+    transition: all 800ms ease-in-out;
+}
+
+.icon11-container .fa-facebook{
+    background-color: #3B5998;
+}
+
+.icon11-container .fa-facebook:hover{
+    background-color: #293F63;
+}
+
+.icon11-container .fa-twitter{
+    background-color: #55ACEE;
+}
+
+.icon11-container .fa-twitter:hover{
+    background-color: #2695BC;
+}
+
+.icon11-container .fa-linkedin{
+    background-color: #0077B5;
+}
+
+.icon11-container .fa-linkedin:hover{
+    background-color: #005377;
+}
+
+.icon11-container .fa-google{
+    background-color: #DD4B39;
+}
+
+.icon11-container .fa-google:hover{
+    background-color: #BB2C1A;
+}
+
+.icon11-container .fa-rss{
+    background-color: #FF6000;
+}
+
+.icon11-container .fa-rss:hover{
+    background-color: #C64A00;
 }
 
 /*--------------------------------------------------------------
