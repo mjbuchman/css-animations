@@ -88,7 +88,6 @@ Popout Menu Bar
     height: 160px;
     width: 0px;
     transition: .5s;
-
 }
 
 .sidenav a{
@@ -185,7 +184,7 @@ First set of icons - Red Flip Card Icons - Top Left
 --------------------------------------------------------------*/
 .icon1-container{
     position: absolute;
-	display: inline-block;
+    display: inline-block;
     height: 200px;
     background-color: #FF5952;
     border: 2.5px solid #fff;
@@ -229,7 +228,6 @@ First set of icons - Red Flip Card Icons - Top Left
     opacity: 0;
     z-index: 0;
     transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
 }
 
 .icon1-container .fa:hover span {
@@ -238,72 +236,38 @@ First set of icons - Red Flip Card Icons - Top Left
     opacity:1;
 }
 
-.icon1-container .fa-facebook{
-
-}
-
 .icon1-container .fa-facebook:hover{
     background-color: #FFA5A0;
 }
 
-.icon1-container .fa-twitter{
-
-}
-
 .icon1-container .fa-twitter:hover{
     background-color: #FFA5A0;
-
-}
-
-.icon1-container .fa-google{
-
 }
 
 .icon1-container .fa-google:hover{
     background-color: #FFA5A0;
-
-}
-
-.icon1-container .fa-linkedin{
 }
 
 .icon1-container .fa-linkedin:hover{
     background-color: #FFA5A0;
 }
 
-.icon1-container .fa-youtube{
-
-}
-
 .icon1-container .fa-youtube:hover{
     background-color: #FFA5A0;
-
-}
-
-.icon1-container .fa-tumblr{
 }
 
 .icon1-container .fa-tumblr:hover{
     background-color: #FFA5A0;
-
-}
-
-.icon1-container .fa-pinterest{
 }
 
 .icon1-container .fa-pinterest:hover{
     background-color: #FFA5A0;
-
-}
-
-.icon1-container .fa-rss{
-
 }
 
 .icon1-container .fa-rss:hover{
     background-color: #FFA5A0;
-
 }
+
 /*--------------------------------------------------------------
 Second set of icons - Blue Circle 3x3 Icons - Top Middle
 --------------------------------------------------------------*/
@@ -325,7 +289,7 @@ Second set of icons - Blue Circle 3x3 Icons - Top Middle
     text-align: center;
     text-decoration: none;
     margin: 10px 4px;
-	border-radius: 50%;
+    border-radius: 50%;
 }
 
 .icon2-container .fa:hover{
@@ -356,13 +320,13 @@ Second set of icons - Blue Circle 3x3 Icons - Top Middle
 }
 
 .icon2-container .fa-dribbble{
-	background: #EA4C89;
-	color: white;
+    background: #EA4C89;
+    color: white;
 }
 
 .icon2-container .fa-linkedin{
-	background: #0077B5;
-	color: white;
+    background: #0077B5;
+    color: white;
 }
 
 .icon2-container .fa-tumblr{
@@ -371,8 +335,8 @@ Second set of icons - Blue Circle 3x3 Icons - Top Middle
 }
 
 .icon2-container .fa-pinterest{
-	background: #CB2027;
-	color: white;
+    background: #CB2027;
+    color: white;
 }
 
 .icon2-container .fa-rss{
@@ -401,14 +365,12 @@ Third set of icons - Green Slide Down Icons - Top Middle
     text-align: center;
     text-decoration: none;
     margin: 10px 20px;
-	border-radius: 35%;
+    border-radius: 35%;
 }
 
 .icon3-container .fa-facebook{
     background-size: 100% 200%;
     background-image: linear-gradient(to bottom, white 50%, #3B5998 50%);
-    -webkit-transition: background-position .5s;
-    -moz-transition: background-position .5s;
     transition: background-position .5s;
     color: #3B5998;
 }
@@ -422,8 +384,6 @@ Third set of icons - Green Slide Down Icons - Top Middle
 .icon3-container .fa-twitter{
     background-size: 100% 200%;
     background-image: linear-gradient(to bottom, white 50%, #55ACEE 50%);
-    -webkit-transition: background-position .5s;
-    -moz-transition: background-position .5s;
     transition: background-position .5s;
     color:  #55ACEE;
 }
@@ -437,8 +397,6 @@ Third set of icons - Green Slide Down Icons - Top Middle
 .icon3-container .fa-linkedin{
     background-size: 100% 200%;
     background-image: linear-gradient(to bottom, white 50%, #0077B5 50%);
-    -webkit-transition: background-position .5s;
-    -moz-transition: background-position .5s;
     transition: background-position .5s;
 	color: #0077B5;
 }
@@ -452,8 +410,6 @@ Third set of icons - Green Slide Down Icons - Top Middle
 .icon3-container .fa-google{
     background-size: 100% 200%;
     background-image: linear-gradient(to bottom, white 50%, #DD4B39 50%);
-    -webkit-transition: background-position .5s;
-    -moz-transition: background-position .5s;
     transition: background-position .5s;
     color: #DD4B39;
 }
@@ -467,8 +423,6 @@ Third set of icons - Green Slide Down Icons - Top Middle
 .icon3-container .fa-rss{
     background-size: 100% 200%;
     background-image: linear-gradient(to bottom, white 50%, #FF6000 50%);
-    -webkit-transition: background-position .5s;
-    -moz-transition: background-position .5s;
     transition: background-position .5s;
     color: #FF6000;
 }
@@ -501,7 +455,7 @@ Fourth set of icons - Yellow Hover Expand Icons - Top Right
     text-decoration: none;
     text-align: center;
     margin: 10px 4px;
-	border-radius: 100%;
+    border-radius: 100%;
     padding-top: 15px;
 }
 
@@ -585,7 +539,7 @@ Fifth set of icons - Yellow Spin-Grow Icons - Left Side Middle
     text-decoration: none;
     text-align: center;
     margin: 10px 4px;
-	border-radius: 100%;
+    border-radius: 100%;
     padding-top: 15px;
     background-color: #FFF;
     margin-right: 20px;
@@ -618,6 +572,7 @@ Fifth set of icons - Yellow Spin-Grow Icons - Left Side Middle
 .icon5-container .fa-linkedin:hover{
     transform: rotate(360deg) scale(1.4);
 }
+
 /*--------------------------------------------------------------
 Sixth set of icons - Purple Neon Glow Icons - Middle Left
 --------------------------------------------------------------*/
@@ -628,7 +583,8 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
     background-color: #644CA2;
     border: 2.5px solid #FFF;
     height: 262px;
-    width: 262px;}
+    width: 262px;
+}
 
 .icon6-container .fa{
     position: absolute;
@@ -638,7 +594,7 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
     text-align: center;
     text-decoration: none;
     margin: 10px 4px;
-	border-radius: 40%;
+    border-radius: 40%;
     margin-left: 12px;
     margin-top: 11px;
 }
@@ -707,7 +663,7 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
     left: 85px;
     background: transparent;
     border: 3px solid white;
-	color: white;
+    color: white;
 }
 
 .icon6-container .fa-dribbble:hover{
@@ -723,7 +679,7 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
     left: 170px;
     background: transparent;
     border: 3px solid white;
-	color: white;
+    color: white;
 }
 
 .icon6-container .fa-linkedin:hover{
@@ -754,7 +710,7 @@ Sixth set of icons - Purple Neon Glow Icons - Middle Left
     left: 85px;
     background: transparent;
     border: 3px solid white;
-	color: white;
+    color: white;
 }
 
 .icon6-container .fa-pinterest:hover{
@@ -862,6 +818,7 @@ Seventh set of icons - Red - Middle Right
     transform: rotate(360deg);
     border-radius: 50%;
 }
+
 /*--------------------------------------------------------------
 Eighth set of icons - Blue Popout Menu Icons - Right Side Middle
 --------------------------------------------------------------*/
@@ -894,7 +851,6 @@ Eighth set of icons - Blue Popout Menu Icons - Right Side Middle
     left: 153px;
     border-radius: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .icon8-container input[type="checkbox"]:checked + label ~ .fa-facebook{
@@ -949,7 +905,7 @@ Eighth set of icons - Blue Popout Menu Icons - Right Side Middle
     text-decoration: none;
     text-align: center;
     margin: 10px 4px;
-	border-radius: 100%;
+    border-radius: 100%;
     padding-top: 15px;
     transition: transform .5s ease-in-out;
 }
@@ -1001,13 +957,13 @@ Ninth set of icons - Blue Scrolling Text - Bottom Left
 }
 
 .icon9-container a {
-	position: relative;
+    position: relative;
     color: #fff;
     text-decoration: none;
     text-align: center;
     display: block;
     height: 35px;
-   	width: 160px;
+    width: 160px;
     overflow: hidden;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -1175,6 +1131,7 @@ Ninth set of icons - Blue Scrolling Text - Bottom Left
 .icon9-container .flickr:hover > span2{
     transform: translate(-160px, 0);
 }
+
 /*--------------------------------------------------------------
 Tenth set of icons - Green Pressed Button Icons - Bottom Middle
 --------------------------------------------------------------*/
@@ -1190,16 +1147,16 @@ Tenth set of icons - Green Pressed Button Icons - Bottom Middle
 }
 
 .icon10-container a {
-	position: relative;
+    position: relative;
     color: #fff;
     text-decoration: none;
     display: block;
     border-radius: 6px;
     height: 35px;
-   	width: 160px;
-	text-align: left;
-	transform: translate(0, 0);
-	transition: all .2s ease;
+    width: 160px;
+    text-align: left;
+    transform: translate(0, 0);
+    transition: all .2s ease;
     overflow: hidden;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -1343,7 +1300,7 @@ Eleventh set of icons - Yellow - Bottom Middle
     text-align: center;
     border: 3px solid white;
     margin: 10px 4px;
-	border-radius: 100%;
+    border-radius: 100%;
     padding-top: 12px;
     transition: all 800ms ease-in-out;
 }
@@ -1415,7 +1372,7 @@ Twelfth set of icons - Purple Raise Up Icons- Middle Right
     text-decoration: none;
     text-align: center;
     margin: 10px 4px;
-	border-radius: 100%;
+    border-radius: 100%;
     padding-top: 15px;
     background-color: #FFF;
     margin-right: 10px;
@@ -1495,92 +1452,90 @@ Thirteenth set of icons - Red - Bottom Right
 }
 
 .flip-container {
-	perspective: 1000px;
-	display: block;
-	float: left;
-	margin-left: 20px;
-	margin-right: 20px;
+    perspective: 1000px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .flip-container:hover .flipper, .flip-container.hover .flipper {
-	transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .flip-container, .front, .back {
-	width: 130px;
-	height: 130px;
+    width: 130px;
+    height: 130px;
 }
 
 .flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
 }
 
 .front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .front {
-	z-index: 2;
-	transform: rotateY(0deg);
+    z-index: 2;
+    transform: rotateY(0deg);
 }
 
 .back {
-	transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 #facebook-box-front{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #FF7C75;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FF7C75;
 }
 
 #facebook-box-back{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #3B5998;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #3B5998;
 }
 
 #twitter-box-front{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #FF7C75;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FF7C75;
 }
 
 #twitter-box-back{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #55ACEE;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #55ACEE;
 }
 
 #linkedin-box-front{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #FF7C75;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FF7C75;
 }
 
 #linkedin-box-back{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #0077B5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #0077B5;
 }
 
 #google-box-front{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #FF7C75;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FF7C75;
 }
 
 #google-box-back{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #DD4B39;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #DD4B39;
 }
 
 #rss-box-front{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #FF7C75;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FF7C75;
 }
 
 #rss-box-back{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	background-color: #FF6000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FF6000;
 }
