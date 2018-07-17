@@ -1,7 +1,7 @@
 # CSS Animations
 
-## Project Purpose
-Demonstrate CSS animation abilities as well as create a repository for social media icons to be used in future projects.
+## Description
+A repository for social media icons to be used in future projects. Each of the 13 sets of icons use a different form of css animation. 
 
 ## How to Use
 Clone the [repository](https://github.com/mjbuchman/css-animations) and run the index.html file.
