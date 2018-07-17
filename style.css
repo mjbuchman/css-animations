@@ -25,7 +25,7 @@ Typography
     font-size: 24px;
 }
 
-.icon9-container a span, span2, span3, span4{
+.icon9-container a span, span2{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
@@ -47,14 +47,10 @@ Popout Menu Bar
 .menu{
     z-index: 2;
     display: block;
-    position: absolute;
+    position: fixed;
     top: 85px;
     right: 0px;
     transition: .5s;
-}
-
-.menu:hover{
-    cursor: pointer;
 }
 
 #menu{
@@ -84,13 +80,80 @@ Popout Menu Bar
     background-color: #333;
     top: 85px;
     right: 0px;
-    height: 200px;
+    height: 160px;
     width: 0px;
     transition: .5s;
 
 }
 
+.sidenav a{
+    height: 40px;
+    width: 50px;
+}
 
+.sidenav a:hover{
+    background-color: #111;
+}
+
+#github{
+    position: absolute;
+    top: 0;
+    height: 40px;
+    width: 50px;
+    background-color: inherit;
+    border:none;
+    outline: none;
+}
+
+#github:hover{
+    cursor: pointer;
+    background-color: #111;
+}
+
+#linkedinMJB{
+    position: absolute;
+    top: 40px;
+    height: 40px;
+    width: 50px;
+    background-color: inherit;
+    border:none;
+    outline: none;
+}
+
+#linkedinMJB:hover{
+    cursor: pointer;
+    background-color: #111;
+}
+
+#portfolio{
+    position: absolute;
+    top: 80px;
+    height: 40px;
+    width: 50px;
+    background-color: inherit;
+    border:none;
+    outline: none;
+}
+
+#portfolio:hover{
+    cursor: pointer;
+    background-color: #111;
+}
+
+#info{
+    position: absolute;
+    top: 120px;
+    height: 40px;
+    width: 50px;
+    background-color: inherit;
+    border:none;
+    outline: none;
+}
+
+#info:hover{
+    cursor: pointer;
+    background-color: #111;
+}
 
 /*--------------------------------------------------------------
 First set of icons - Red Flip Card Icons - Top Left
